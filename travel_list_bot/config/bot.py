@@ -1,7 +1,8 @@
+import os
 from collections import namedtuple
 
 
-TOKEN = '1189252346:AAF6RbynV1Xt0tTKbWwB4MAW5Fz3f5dytGI'
+TOKEN = os.getenv('BOT_TOKEN')
 TIMEZONE = 'Europe/Kiev'
 TIMEZONE_COMMON_NAME = 'Kiev'
 COMMANDS_LIST = ('add', 'list', 'reset', 'help')
