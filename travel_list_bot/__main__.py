@@ -1,1 +1,1 @@
-import bot_core
+import travel_list_bot.bot_core
