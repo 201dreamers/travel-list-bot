@@ -1,5 +1,5 @@
-from travel_list_bot.models import Place, Chat
-from travel_list_bot.config.db import session
+from models import Place, Chat
+from config.db import session
 
 
 def db_get_places(chat_id, how_much):

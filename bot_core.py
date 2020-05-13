@@ -1,8 +1,8 @@
 import telebot
 from telebot import types
 
-from travel_list_bot.config.bot import TOKEN, COMMANDS_LIST, COMMANDS_DESCRIPTION, add_step
-from travel_list_bot.bot_backend import db_get_chat, db_update_chat, db_get_places, \
+from config.bot import TOKEN, COMMANDS_LIST, COMMANDS_DESCRIPTION, add_step
+from bot_backend import db_get_chat, db_update_chat, db_get_places, \
     db_update_places, db_remove_places, get_step, place_exists
 
 
