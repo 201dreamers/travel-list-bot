@@ -1,2 +1,2 @@
-web: python3 bot_core.py
-worker: python3 bot_core.py
+web: python3 -m travel_list_bot
+worker: python3 -m travel_list_bot
