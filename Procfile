@@ -1,1 +1,1 @@
-web: python3 -m travel_list_bot
+web: python3 bot_core.py
