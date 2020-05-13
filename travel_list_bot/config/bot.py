@@ -3,7 +3,6 @@ from collections import namedtuple
 
 
 TOKEN = os.getenv('BOT_TOKEN')
-print('TOKEN - ', TOKEN)
 TIMEZONE = 'Europe/Kiev'
 TIMEZONE_COMMON_NAME = 'Kiev'
 COMMANDS_LIST = ('add', 'list', 'reset', 'help')
