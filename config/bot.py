@@ -1,7 +1,7 @@
 from collections import namedtuple
 
 
-TOKEN = '1170050633:AAF-DR1fDX6TyDPUDZOOs5P1xPlQ0l-lt2Y'
+TOKEN = '1189252346:AAF6RbynV1Xt0tTKbWwB4MAW5Fz3f5dytGI'
 TIMEZONE = 'Europe/Kiev'
 TIMEZONE_COMMON_NAME = 'Kiev'
 COMMANDS_LIST = ('add', 'list', 'reset', 'help')
@@ -9,17 +9,17 @@ COMMANDS_DESCRIPTION = (
     {
         'name': 'add',
         'shortcut': 'a',
-        'description': 'додати нову локацію'
+        'description': 'додати нове місце'
     },
     {
         'name': 'list',
         'shortcut': 'l',
-        'description': 'показати 10 останніх збережених локацій'
+        'description': 'показати 10 останніх місць'
     },
     {
         'name': 'reset',
         'shortcut': 'r',
-        'description': 'видалити всі додані локації'
+        'description': 'видалити всі додані місця'
     },
     {
         'name': 'help',

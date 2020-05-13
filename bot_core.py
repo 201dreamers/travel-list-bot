@@ -50,7 +50,7 @@ def create_skip_stop_keyboard(skip=True):
 def send_menu(message):
     bot.send_message(
             chat_id=message.chat.id,
-            text='---------Menu---------',
+            text='---------[Menu]---------',
             reply_markup=create_main_keyboard()
         )
 
@@ -74,7 +74,7 @@ def send_success_message(message, place_id):
 def start_command_handler(message):
     bot.send_message(
         chat_id=message.chat.id,
-        text='Привіт, цей бот збереже всі місця' +
+        text='Привіт, я збережу всі місця' +
         ' які ти б хотів відвідати в майбутньому.\n' +
         'Доступні комманди:\n' +
         '\n'.join([
